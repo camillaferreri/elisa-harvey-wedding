@@ -1,0 +1,30 @@
+@import "../../styles/variables.scss";
+
+.Input {
+    span {
+        display: block;
+        transform-origin: left;
+        font-style: italic;
+        text-align: left;
+    }
+    
+    input {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: map-get($font-size, "base");;
+        padding: .5rem 0;
+        font-family: $font-family-sans;
+        border-bottom: 2px solid map-get($palette, "milk");
+        display: block;
+        width: 100%;
+        margin-bottom: 0.5rem;
+        transition: border-bottom 300ms;
+    }
+
+    &.error {
+        input {
+            border-bottom: 2px solid map-get($palette, "error");
+        }
+    }
+}

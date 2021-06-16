@@ -1,0 +1,36 @@
+@import "../../styles/variables.scss";
+
+.TextArea {
+    .placeholder {
+        display: block;
+        transform-origin: left;
+        font-style: italic;
+        text-align: left;
+    }
+    
+    textarea {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: map-get($font-size, "base");
+        padding: .5rem 0;
+        font-family: $font-family-sans;
+        border-bottom: 2px solid map-get($palette, "milk");
+        display: block;
+        width: 100%;
+        margin-bottom: 0.5rem;
+        height: 5.2rem;
+    }
+
+    .counter {
+        display: block;
+        font-size: map-get($font-size, "small");
+        text-align: right;
+    }
+    
+    &.error {
+        textarea {
+            border-bottom: 2px solid map-get($palette, "error");
+        }
+    }
+}

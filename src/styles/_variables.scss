@@ -1,0 +1,25 @@
+$font-family-sans: 'Open Sans', sans-serif;
+$font-family-serif: 'Cormorant Garamond', serif;
+
+$font-size: (
+  "small":    .75rem,  // 12px
+  "base-xs":  .87rem,  // 14px
+  "base":     1rem,    // 16px
+  "base-lg":  1.25rem, // 20px
+  "large":    1.87rem, // 30px
+  "giant":    3.12rem, // 50px
+);
+
+$font-weight: (
+  "light": 300,
+  "regular": 400,
+  "medium":  500,
+  "bold":    600
+);
+
+$palette: (
+  "pale": #EAE3D9,
+  "milk": #F8F7F3,
+  "gray": #474747,
+  "error": #9a1313
+);

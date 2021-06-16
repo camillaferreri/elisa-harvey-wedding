@@ -1,0 +1,55 @@
+@import "fonts";
+@import "variables";
+
+*,
+*::after, 
+*::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow: hidden;
+}
+
+body {
+	margin: 0;
+	font-family: $font-family-sans;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 12vh;
+    background-color: map-get($palette, "milk");
+    color: map-get($palette, "gray");
+    
+    @media screen and (min-width: 620px) {
+        font-size: 10vh;
+    }
+}
+
+h1 { 
+    font-size: map-get($font-size, "large");
+
+    @media screen and (min-width: 620px) {
+        font-size: map-get($font-size, "giant");
+    }
+}
+
+h2 { 
+    font-size: map-get($font-size, "large");
+}
+
+h3 { 
+    font-size: map-get($font-size, "base-lg");
+}
+
+h4 { 
+    font-size: map-get($font-size, "base-xs");
+}
+
+h5 { 
+    font-size: map-get($font-size, "small");
+}
+
+p, span, strong, input {
+    font-size: map-get($font-size, "base");
+}

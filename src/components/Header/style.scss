@@ -1,0 +1,11 @@
+@import "../../styles/globals.scss";
+
+.Header {
+    text-align: center;
+
+    h3 {
+        font-family: $font-family-serif;
+        font-style: italic;
+        font-weight: map-get($font-weight, "regular");
+    }
+}

@@ -1,0 +1,36 @@
+@import "../../styles/globals.scss";
+
+.Images {
+
+    .ImagesContainer {
+        position: relative;
+        height: 35vh;
+        width: 35vh;
+        margin: auto;
+
+        img {
+            height: 35vh;
+            width: 35vh;
+            position: absolute;
+            pointer-events: none;
+            object-fit: cover;
+
+            @for $i from 0 to 6 {
+                &:nth-child(#{$i}) {
+                    @if $i % 2 == 0 {
+                        transform: rotate(#{$i * 1.5deg});
+                    } @else {
+                        transform: rotate(#{$i * -1.5deg});
+                    }
+                }
+            }
+        }
+    }
+
+    h1 {
+        font-family: $font-family-serif;
+        font-weight: map-get($font-weight, "medium");
+        font-style: italic;
+        margin: 0;
+    }
+}

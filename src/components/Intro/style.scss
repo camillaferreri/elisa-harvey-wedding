@@ -1,0 +1,19 @@
+@import "../../styles/globals.scss";
+
+.Intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: calc(48vh - 60px);
+    text-align: center;
+    padding: 0 4rem;
+
+    div {
+        overflow: hidden;
+
+        p {
+            margin: 0;
+            font-style: italic;
+        }
+    }
+}
