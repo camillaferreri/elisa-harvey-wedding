@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/elisa-harvey-wedding/static/css/main.5026dcf5.chunk.css",
+    "main.css": "/elisa-harvey-wedding/static/css/main.c050cff5.chunk.css",
     "main.js": "/elisa-harvey-wedding/static/js/main.5c64bab7.chunk.js",
     "main.js.map": "/elisa-harvey-wedding/static/js/main.5c64bab7.chunk.js.map",
     "runtime-main.js": "/elisa-harvey-wedding/static/js/runtime-main.aaabe8da.js",
@@ -10,7 +10,7 @@
     "static/js/3.f6449f16.chunk.js": "/elisa-harvey-wedding/static/js/3.f6449f16.chunk.js",
     "static/js/3.f6449f16.chunk.js.map": "/elisa-harvey-wedding/static/js/3.f6449f16.chunk.js.map",
     "index.html": "/elisa-harvey-wedding/index.html",
-    "static/css/main.5026dcf5.chunk.css.map": "/elisa-harvey-wedding/static/css/main.5026dcf5.chunk.css.map",
+    "static/css/main.c050cff5.chunk.css.map": "/elisa-harvey-wedding/static/css/main.c050cff5.chunk.css.map",
     "static/js/2.bbf6872e.chunk.js.LICENSE.txt": "/elisa-harvey-wedding/static/js/2.bbf6872e.chunk.js.LICENSE.txt",
     "static/media/globals.scss": "/elisa-harvey-wedding/static/media/OpenSans-SemiBoldItalic.63afadba.ttf",
     "static/media/drag-icon.78dc642b.svg": "/elisa-harvey-wedding/static/media/drag-icon.78dc642b.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.aaabe8da.js",
     "static/js/2.bbf6872e.chunk.js",
-    "static/css/main.5026dcf5.chunk.css",
+    "static/css/main.c050cff5.chunk.css",
     "static/js/main.5c64bab7.chunk.js"
   ]
 }
